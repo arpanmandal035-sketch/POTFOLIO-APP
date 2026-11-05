@@ -1,0 +1,14 @@
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local owner input and environment files
+owner-contact.local.json
+.env
+.env.*
+!.env.example
+
+# Logs, editor files, test artifacts
+*.log
+.DS_Store
+.playwright/
